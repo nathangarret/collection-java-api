@@ -1,4 +1,4 @@
-package list;
+package list.operacoesBasicas;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -52,7 +52,7 @@ public class ListaTarefa {
         listaTarefa.removerTarefa("Tarefa 1");
         System.out.println("O número total de elementos na lista é: "+ listaTarefa.obterNumeroTotalTarefas());
 
-        listaTarefa.obterDescricoesTarefa(); // list.Tarefa@3d075dc0 -> adicionar o toString()
+        listaTarefa.obterDescricoesTarefa(); // list.list.operacoesBasicas.operacoesBasicas.Tarefa@3d075dc0 -> adicionar o toString()
 
     }
 }
